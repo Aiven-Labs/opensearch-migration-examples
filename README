@@ -1,4 +1,21 @@
-# NodeJS - OpenSearch Migration Examples
+# OpenSearch Migration Examples
+
+This repository will provide examples for migrating native Elasticsearch clients to
+the OpenSearch equivilant.
+
+## Java / SpringBoot
+
+// Coming Soon...
+
+## Python
+
+// Coming Soon...
+
+## Go
+
+// Coming Soon...
+
+## NodeJS
 
 Testing show that this is a two (2) line change. Install the new dependency, and change the `require`/`import` statement.
 
