@@ -5,14 +5,14 @@ import org.apache.http.auth.AuthScope;
 import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.http.client.CredentialsProvider;
 import org.apache.http.impl.client.BasicCredentialsProvider;
-import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
-import org.elasticsearch.action.delete.*;
-import org.elasticsearch.action.get.*;
-import org.elasticsearch.action.index.*;
-import org.elasticsearch.action.support.master.AcknowledgedResponse;
-import org.elasticsearch.client.*;
-import org.elasticsearch.client.indices.*;
-import org.elasticsearch.common.settings.Settings;
+import org.opensearch.action.admin.indices.delete.DeleteIndexRequest;
+import org.opensearch.action.delete.*;
+import org.opensearch.action.get.*;
+import org.opensearch.action.index.*;
+import org.opensearch.action.support.master.AcknowledgedResponse;
+import org.opensearch.client.*;
+import org.opensearch.client.indices.*;
+import org.opensearch.common.settings.Settings;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -25,7 +25,7 @@ import java.util.UUID;
 @SpringBootApplication
 public class Application {
 
-    private static final String CLIENT_LIBRARY = "org.elasticsearch.client:elasticsearch-rest-client:7.10.2";
+    private static final String CLIENT_LIBRARY = "org.opensearch.client:opensearch-rest-client:1.1.0";
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
