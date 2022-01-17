@@ -21,7 +21,7 @@ Changes related to clients and arguments:
 + client_against_opensearch = OpenSearch(OS_SERVICE_URI, use_ssl=True)
 ```
 
-See this commit diff as an example change: [python-client-migration/python_client_migration/main.py](https://github.com/aiven/opensearch-migration-examples/commit/46c5148d21f5a4814b4c798263c873ff7d98dc00)
+See this commit diff as an example change: [python-client-migration/python_client_migration/main.py](https://github.com/aiven/opensearch-migration-examples/commit/f11b0e379dc63d9c023b62a032a72d9f1d4b9fc5)
 
 
 
