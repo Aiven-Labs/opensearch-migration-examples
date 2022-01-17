@@ -47,3 +47,6 @@ $ npm install --save @opensearch-project/opensearch
 
 - Compatibility https://opensearch.org/docs/latest/clients/index/
 - NodeJS https://opensearch.org/docs/latest/clients/javascript/
+
+## License
+This work is licensed under a [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt).
