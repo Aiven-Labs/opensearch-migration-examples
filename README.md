@@ -22,7 +22,24 @@ implementation 'org.opensearch.client:opensearch-rest-high-level-client:1.1.0'
 
 ## Python
 
-// Coming Soon...
+Testing shows that this is a four (4) line change. Change the `import` statement, and the Python client for ES (Elasticsearch) and OS (OpenSearch).
+
+Changes related to `import`:
+
+```python
+- from elasticsearch import Elasticsearch
++ from opensearchpy import OpenSearch
+```
+
+Changes related to clients and arguments:
+
+```python
+- client_against_opensearch = Elasticsearch(OS_SERVICE_URI, use_ssl=True)
++ client_against_opensearch = OpenSearch(OS_SERVICE_URI, use_ssl=True)
+```
+
+See this commit diff as an example change: [python-client-migration/python_client_migration/main.py](https://github.com/aiven/opensearch-migration-examples/commit/46c5148d21f5a4814b4c798263c873ff7d98dc00)
+
 
 ## Go
 
