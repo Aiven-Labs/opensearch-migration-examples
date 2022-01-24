@@ -14,7 +14,7 @@ implementation 'org.opensearch.client:opensearch-rest-client:1.1.0'
 implementation 'org.opensearch.client:opensearch-rest-high-level-client:1.1.0'
 ```
 
-## Resources
+### Resources
 
 - [Compatibility](https://opensearch.org/docs/latest/clients/index/)
 - [Java High Level Client](https://opensearch.org/docs/latest/clients/java-rest-high-level/)
@@ -40,6 +40,10 @@ Changes related to clients and arguments:
 
 See this commit diff as an example change: [python-client-migration/python_client_migration/main.py](https://github.com/aiven/opensearch-migration-examples/commit/f11b0e379dc63d9c023b62a032a72d9f1d4b9fc5)
 
+### Resources
+
+- [Compatibility](https://opensearch.org/docs/latest/clients/index/)
+- [Python](https://opensearch.org/docs/latest/clients/python)
 
 ## Go
 
@@ -60,10 +64,10 @@ $ npm install --save @opensearch-project/opensearch
 + const { Client } = require('@opensearch-project/opensearch');
 ```
 
-## Resources
+### Resources
 
-- Compatibility https://opensearch.org/docs/latest/clients/index/
-- NodeJS https://opensearch.org/docs/latest/clients/javascript/
+- [Compatibility](https://opensearch.org/docs/latest/clients/index/)
+- [NodeJS](https://opensearch.org/docs/latest/clients/javascript/)
 
 ## License
 This work is licensed under a [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt).
