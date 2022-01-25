@@ -15,5 +15,5 @@ $ npm install --save @opensearch-project/opensearch
 
 ## Resources
 
-- Compatibility https://opensearch.org/docs/latest/clients/index/
-- NodeJS https://opensearch.org/docs/latest/clients/javascript/
+- [Compatibility](https://opensearch.org/docs/latest/clients/index/)
+- [NodeJS Client](https://opensearch.org/docs/latest/clients/javascript/)

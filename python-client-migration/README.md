@@ -27,5 +27,5 @@ See this commit diff as an example change: [python-client-migration/python_clien
 
 ## Resources
 
-- Compatibility https://opensearch.org/docs/latest/clients/index/
-- Python https://opensearch.org/docs/latest/clients/python/
+- [Compatibility](https://opensearch.org/docs/latest/clients/index/)
+- [Python Client](https://opensearch.org/docs/latest/clients/python)
