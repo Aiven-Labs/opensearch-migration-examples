@@ -8,7 +8,7 @@ See this commit diff as an example change: [node-client-migration/src/main.js](h
 $ npm install --save @opensearch-project/opensearch
 ```
 
-```javascript
+```diff
 - const { Client } = require('@elastic/elasticsearch');
 + const { Client } = require('@opensearch-project/opensearch');
 ```

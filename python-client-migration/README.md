@@ -9,14 +9,14 @@ Testing shows that this is a four (4) line change. Change the `import` statement
 
 Changes related to `import`:
 
-```python
+```diff
 - from elasticsearch import Elasticsearch
 + from opensearchpy import OpenSearch
 ```
 
 Changes related to clients and arguments:
 
-```python
+```diff
 - client_against_opensearch = Elasticsearch(OS_SERVICE_URI, use_ssl=True)
 + client_against_opensearch = OpenSearch(OS_SERVICE_URI, use_ssl=True)
 ```

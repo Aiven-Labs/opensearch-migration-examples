@@ -9,9 +9,11 @@ Testing shows that this is a minimal change. Install the new dependency, and cha
 
 See this commit diff as an example change: [java-client-migration/src/main/java/.../Application.java](https://github.com/aiven/opensearch-migration-examples/commit/7453d659c06b234ae7f28f801a074e459c2f31c8)
 
-```groovy
-implementation 'org.opensearch.client:opensearch-rest-client:1.1.0'
-implementation 'org.opensearch.client:opensearch-rest-high-level-client:1.1.0'
+```diff
+- implementation 'org.elasticsearch.client:elasticsearch-rest-client:7.10.2'
+- implementation 'org.elasticsearch.client:elasticsearch-rest-high-level-client:7.10.2'
++ implementation 'org.opensearch.client:opensearch-rest-client:1.1.0'
++ implementation 'org.opensearch.client:opensearch-rest-high-level-client:1.1.0'
 ```
 
 ## Resources
@@ -26,14 +28,14 @@ Testing shows that this is a four (4) line change. Change the `import` statement
 
 Changes related to `import`:
 
-```python
+```diff
 - from elasticsearch import Elasticsearch
 + from opensearchpy import OpenSearch
 ```
 
 Changes related to clients and arguments:
 
-```python
+```diff
 - client_against_opensearch = Elasticsearch(OS_SERVICE_URI, use_ssl=True)
 + client_against_opensearch = OpenSearch(OS_SERVICE_URI, use_ssl=True)
 ```
@@ -55,7 +57,7 @@ See this commit diff as an example change: [node-client-migration/src/main.js](h
 $ npm install --save @opensearch-project/opensearch
 ```
 
-```javascript
+```diff
 - const { Client } = require('@elastic/elasticsearch');
 + const { Client } = require('@opensearch-project/opensearch');
 ```
