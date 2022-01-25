@@ -43,7 +43,7 @@ See this commit diff as an example change: [python-client-migration/python_clien
 ### Resources
 
 - [Compatibility](https://opensearch.org/docs/latest/clients/index/)
-- [Python](https://opensearch.org/docs/latest/clients/python)
+- [Python Client](https://opensearch.org/docs/latest/clients/python)
 
 ## Go
 
@@ -67,7 +67,7 @@ $ npm install --save @opensearch-project/opensearch
 ### Resources
 
 - [Compatibility](https://opensearch.org/docs/latest/clients/index/)
-- [NodeJS](https://opensearch.org/docs/latest/clients/javascript/)
+- [NodeJS Client](https://opensearch.org/docs/latest/clients/javascript/)
 
 ## License
 This work is licensed under a [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt).
