@@ -1,4 +1,4 @@
-# OpenSearch Migration Examples
+# OpenSearch® Migration Examples
 
 This repository will provide examples for migrating native Elasticsearch clients to
 the OpenSearch® equivalent.
