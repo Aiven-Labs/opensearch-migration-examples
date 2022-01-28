@@ -1,7 +1,7 @@
 # OpenSearch Migration Examples
 
 This repository will provide examples for migrating native Elasticsearch clients to
-the OpenSearch equivalent.
+the OpenSearch® equivalent.
 
 ## Java / SpringBoot
 
@@ -73,3 +73,11 @@ $ npm install --save @opensearch-project/opensearch
 
 ## License
 This work is licensed under a [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt).
+
+## Trademarks
+
+Elasticsearch is a trademark of Elasticsearch BV, registered in the U.S. and in other countries.
+
+Java is a registered trademark of Oracle and/or its affiliates. Other names may be trademarks of their respective owners.
+
+OpenSearch, NodeJS, Go, Python and SpringBoot are trademarks and property of their respective owners. All product and service names used in this website are for identification purposes only and do not imply endorsement.
